@@ -1,0 +1,12 @@
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\obj\Debug\FinalGurtejSingh.csproj.CoreCompileInputs.cache
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\FinalGurtejSingh.exe.config
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\FinalGurtejSingh.exe
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\FinalGurtejSingh.pdb
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\EntityFramework.dll
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\EntityFramework.xml
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\obj\Debug\FinalGurtejSingh.csproj.CopyComplete
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\obj\Debug\FinalGurtejSingh.exe
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\obj\Debug\FinalGurtejSingh.pdb
+C:\Users\Gurtej singh\Desktop\c# workspace\FinalGurtejSingh\FinalGurtejSingh\obj\Debug\FinalGurtejSingh.csprojAssemblyReference.cache
