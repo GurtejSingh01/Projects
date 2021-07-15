@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="310.0" prefWidth="430.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="studentlistmanager2.AddStudentController">
+    <stylesheets>
+        <URL value="@application.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="17.0" layoutY="10.0" text="Add new student">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="100.0" text="Enter Name">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="179.0" text="GPA">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="138.0" text="Student ID">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="210.0" layoutY="102.0" />
+      <TextField fx:id="idField" layoutX="210.0" layoutY="140.0" />
+      <TextField fx:id="gpaField" layoutX="210.0" layoutY="181.0" />
+      <Button fx:id="btnadd" layoutX="90.0" layoutY="237.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="66.0" text="Add" />
+      <Button fx:id="btncancel" layoutX="269.0" layoutY="237.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
