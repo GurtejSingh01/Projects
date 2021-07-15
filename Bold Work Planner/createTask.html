@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Work Plan Pvt Ltd</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="js/db.js">
+        </script>
+    </head>
+<body>
+    <header>
+        <div id="header-container">
+            <div class="col-3">
+                <a href="index.html">
+                    <img class="logo" id="logo" src="Images/logo.png">
+                </a>
+            </div>
+            <div class="col-3">
+            <nav>
+                <ul class="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="createTask.html"><li>Create Task</li></a>
+                    <a href="updateTask.html"><li>Update Task</li></a>
+                    <a href="viewTask.html"><li>View Task</li></a>
+                    <a href="viewStatus.html"><li>View Status</li></a>
+                    <li><input id="search" type="search" placeholder="Search"></li>
+                    <a href="aboutUs.html"><li>About Us</li></a>
+                </ul>    
+            </nav>
+            </div>
+        </div><!-- Header-Container Ends Here -->
+    </header>
+    <div class="main_body">
+
+        <fieldset>
+            <legend>Create Task:</legend>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="date">Date:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="date" id="date" name="date" placeholder="Enter Date">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="tName">Task Name:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="taskName" name="taskName" placeholder="Enter Task Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="desc">Description:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="taskDesc" name="taskDesc" placeholder="Enter Description">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="submit"></label>
+                        </div>
+                        <div class="col-75">
+                            <input type="button" onclick="addTask()" value="Create Task"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </fieldset>            
+
+    </div>
+    <footer>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/twitter.png" alt="twitter" height="48" width="55">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/facebook.png" alt="twitter" height="55" width="28">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/instagram.png" alt="twitter" height="52" width="52">
+            </div>
+        </div>
+        <p style="text-align: center; padding-top:300px;"><img src="Images/logo.png" width="200" height="80"></p>
+        <span class="copyright">&copy; Copyright 2020 WorkPlanner &hearts;</span>
+    </footer>
+</body>
+</html>

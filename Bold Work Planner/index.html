@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Work Plan Pvt Ltd</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="js/db.js"></script>
+    </head>
+<body>
+    <header>
+        <div id="header-container">
+            <div class="col-3">
+                <a href="index.html">
+                    <img class="logo" id="logo" src="Images/logo.png">
+                </a>
+            </div>
+            <div class="col-3">
+            <nav>
+                <ul class="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="createTask.html"><li>Create Task</li></a>
+                    <a href="updateTask.html"><li>Update Task</li></a>
+                    <a href="viewTask.html"><li>View Task</li></a>
+                    <a href="viewStatus.html"><li>View Status</li></a>
+                    <li><input id="search" type="search" placeholder="Search"></li>
+                    <a href="aboutUs.html"><li>About Us</li></a>
+                    <a href="Account.html"><li>Register</li></a>
+                    <a href="Login.html"><li>Login</li></a>
+                </ul>    
+            </nav>
+            </div>
+        </div><!-- Header-Container Ends Here -->
+    </header>
+    <div class="main-container">
+        <div id="top-section-main">
+            <div id="top-section-content">
+                <h1>A Website for planning your project progress</h1>
+                <p>WorkPlanner is the website which you wish you had when you started new projects</p>
+                <img class="play-button" src="Images/play.png" alt="play button" height="120px" width="120px">
+                <!--
+                <div class="main-form">
+                    <form>
+                        <h6>SIGN UP FOR A FREE 30 DAY TRIAL</h6>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <button style="trial" type="submit" value="submit">Start Free Trial</button>
+                    </form>
+                </div>
+                -->
+            </div>
+        </div>
+        <div id="feature-section">
+            <h1 class="feature-section-title"> ToDoList with current Tasks and Status:</h1>
+            <table id="showToDoList" class="feature-section-title" border="5"></table>
+            <script>
+                console.log(displayDataInHomePage());
+                var tempData = displayDataInHomePage();
+                console.log(tempData);
+                document.getElementById("showToDoList").innerHTML = tempData;
+            </script>
+            <br><br>
+            <h1 class="feature-section-title"> Its a amazing website brought to you for tracking your work status. Features are:</h1>
+            <div class="feature-content">
+                <div class="col-3">
+                <img src="Images/create.jpg">
+                <h3>Add/Update Task</h3>
+                <p>Add or update your task in ToDoList.</p>
+                </div>
+                <div class="col-3">
+                <img src="Images/view.jpg">
+                <h3>View Task</h3>
+                <p>View what task you have added or updated.</p>
+                </div>
+                <div class="col-3">
+                <img src="Images/status.jpg">
+                <h3>View Status</h3>
+                <p>View status of all the tasks in the form of graph.</p>
+                </div>
+            </div>
+            
+        </div> <!-- End Featured Section -->
+        <div id="showcase1-container">
+            <div class="showcase">
+                <div class="col-2">
+                <img class="showcase1pic" src="Images/apple.png">
+                </div>
+                <div class="col-2">
+                <div class="feature-text">
+                <h1 class="section-title">Yes, this website even looks good on an smartphones</h1>
+                    <p class="section-left">Access the website anytime anywhere with your smartphone only.</p>
+                </div>
+                </div><!-- End Feature-Text -->
+            </div>
+        </div>
+        
+        <div id="showcase2-container">
+            <div class="showcase">
+                <div class="col-2">
+                <div class="feature-text">
+                <h1 class="section-title">How about an tablet and iPad? Yup that too!</h1>
+                    <p class="section-left">It doesn't matter what device you are on.</p>
+                </div>
+                </div>
+                <div class="col-2">
+                <img class="showcase1pic" src="Images/ipad.png">
+                </div><!-- End Feature-Text -->
+            </div>
+        </div> <!-- End showcase2-container -->
+        
+        <div id="call-to-action">
+            <div class="showcase">
+                <div class="col-1">
+                    <h1 class="action-title">What are you waiting for?</h1>
+                    <p>Get started today and try for free</p>
+                    <p style="text-align"><a href="#"><button>Try Today</button></a></p>
+                </div>
+            </div>
+        </div><!-- End call-to-action -->
+        <div class="signup">
+            <div class="col-2">
+                <h1 class="section-title" style="text-align:left;">Hear what our fans have to say about WorkPlan Website</h1>
+            </div><!-- End of col-2 -->
+            <div class="col-2">
+                <p class="section-left" style="font-style:italic;">"By Failing to prepare, you are preparing to fail."<br><br><strong>- Benjamin Franklin</strong></p>
+
+                <!--
+                <form class="signupform">
+                <h6>SIGN UP FOR A FREE 30 DAY TRIAL</h6>
+                <input type="text" name="name" placeholder="Name"><br>
+                <input type="email" name="email" placeholder="Email"><br>
+                <button style="trial" type="submit" value="submit">Start Free Trial</button>
+                    <p style="font-size:11px;">* We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
+                </form>
+                -->
+            </div><!-- End of col-2 -->
+            
+        </div>
+    </div> <!-- End main-container -->
+    <footer>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/twitter.png" alt="twitter" height="48" width="55">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/facebook.png" alt="twitter" height="55" width="28">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/instagram.png" alt="twitter" height="52" width="52">
+            </div>
+        </div>
+        <p style="text-align: center; padding-top:300px;"><img src="Images/logo.png" width="200" height="80"></p>
+        <span class="copyright">&copy; Copyright 2020 WorkPlanner &hearts;</span>
+    </footer>
+</body>
+</html>
